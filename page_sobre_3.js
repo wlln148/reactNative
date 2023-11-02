@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
     flex: 3,
     justifyContent: 'center',
     alignItems: 'center',
-    resizeMode: 'cover'
+    resizeMode: 'cover',
+    marginBottom: 100
   },
   imagem: {
     width: 300,
@@ -115,22 +116,25 @@ const styles = StyleSheet.create({
   overlay: {
   ...StyleSheet.absoluteFillObject,
   backgroundColor: 'rgba(0,0,0,0.7)',
-},
-appFadein: {
+  },
+
+  appFadein: {
     width: 300,
     height: 600,
     alignSelf: "center"
   },
+
   button: {
     alignItems: 'center',
     backgroundColor: '#320000',
     padding: 5,
     width: 100,
     borderRadius: 7,
-    marginBottom: 50,
-    left: 200
+    bottom: -10,
+    left: 200,
   },
-buttonText:{
+
+  buttonText:{
     color: "white", 
     textAlign: 'center',
     fontSize: 20
