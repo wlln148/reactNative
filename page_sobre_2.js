@@ -57,6 +57,11 @@ const MinhaTela = ({navigation}) => (
         <Text style={styles.texto2}>
         Com 14 anos de experiência, hoje somos a referência no mercado de distribuição de vinhos importados, trazendo as melhores opções para os nossos clientes.
         </Text>
+        
+        <TouchableOpacity style={styles.button} >
+          <Text style={styles.buttonText}>➔</Text>
+        </TouchableOpacity>
+
         </FadeInView>
       </View>
     </ImageBackground>
@@ -117,6 +122,21 @@ appFadein: {
     width: 300,
     height: 600,
     alignSelf: "center"
+  },
+
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#320000',
+    padding: 5,
+    width: 100,
+    borderRadius: 7,
+    marginBottom: 50,
+    left: 200
+  },
+buttonText:{
+    color: "white", 
+    textAlign: 'center',
+    fontSize: 20
   },
 });
 
