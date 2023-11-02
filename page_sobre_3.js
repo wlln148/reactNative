@@ -57,6 +57,9 @@ const MinhaTela = ({navigation}) => (
         <Text style={styles.texto2}>
           Nossa principal motivação é proporcionar a melhor experiência de compra para quem é apaixonado por vinho. Visando qualidade, agilidade e excelência para poderem brindar os pequenos e grandes momentos da vida.
         </Text>
+        <TouchableOpacity style={styles.button} >
+          <Text style={styles.buttonText}>➔</Text>
+        </TouchableOpacity>
         </FadeInView>
       </View>
     </ImageBackground>
@@ -117,6 +120,20 @@ appFadein: {
     width: 300,
     height: 600,
     alignSelf: "center"
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#320000',
+    padding: 5,
+    width: 100,
+    borderRadius: 7,
+    marginBottom: 50,
+    left: 200
+  },
+buttonText:{
+    color: "white", 
+    textAlign: 'center',
+    fontSize: 20
   },
 });
 
