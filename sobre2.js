@@ -37,7 +37,7 @@ const MinhaTela = ({navigation}) => (
       style={styles.container}
     >
     <View style={styles.overlay} />
-      <TouchableOpacity style={styles.setaContainer} onPress={() => navigation.navigate("MinhaTela")}>
+      <TouchableOpacity style={styles.setaContainer} onPress={() => navigation.navigate("sobre")}>
         <Image
           source={{
             uri: 'https://icons.veryicon.com/png/o/miscellaneous/unicons/arrow-left-44.png',
