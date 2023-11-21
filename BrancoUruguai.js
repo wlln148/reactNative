@@ -23,7 +23,7 @@ const BrancoUruguai = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate("origem")}>
         <Text style={styles.texto}>Home</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate("MinhaTela")}>
+      <TouchableOpacity onPress={() => navigation.navigate("sobre")}>
         <Text style={styles.texto}>Sobre</Text>
       </TouchableOpacity>
       <TouchableOpacity  onPress={() => navigation.navigate("carrinho")}>
